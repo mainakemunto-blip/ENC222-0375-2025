@@ -8,9 +8,9 @@ Fraction& largestFraction(Fraction&f1,Fraction&f2,Fraction&f3){
     double value1=f1.numerator/f1.denominator;
     double value2=f2.numerator/f2.denominator;
     double value3=f3.numerator/f3.denominator;
-if (value1>=value2 and value2>=value3)
+if (value1>=value2 and value1>=value3)
   return f1;
-else if (value2>=value1 and value1>=value3)
+else if (value2>=value1 and value2>=value3)
   return f2;
 else 
   return f3;
