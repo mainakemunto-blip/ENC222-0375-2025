@@ -1,0 +1,72 @@
+Maina Marygoretty Kemunto ENC222-0375/2025
+Write C++ data structure pseudocode; Selection & iteration statements
+•	Pseudocode is a simple human readable way of writing an algorithm that looks like a programming code but does not follow the strict rules of any programming language
+•	Data structure is a specific way to organize, store and manage data in a computer for efficient access and modification defining data values, their relationships and operations that can be performed
+•	Selection statement allows the program to make decisions and execute certain code based on conditions i.e. true or false
+•	Iteration statement allows a program to repeat a block of code multiple times
+
+1.	Data structure using user defined data type structure
+START
+
+Struct Car
+    integer milage
+    string type
+    string model
+ENDSTRUCT
+
+Declare myCar as Car
+read myCar.milage = 200
+read myCar.type = "Toyota"
+read myCar.model = "Corolla"
+
+Display "My car is a " + myCar.type + " with model " + myCar.model + " and a milage of" + myCar.milage
+
+2.	Selection statement using if else
+if myCar.milage > 200 then
+    display "the car is economical."
+else
+    display "the car is not economical."
+ENDIF
+
+3.	Iteration statement using for loop
+Display "repeating car type 5 times"
+for a from 0 to 4
+display myCar.type
+ENDFOR
+
+END
+
+
+
+
+PYTHON STYLE:
+
+START
+
+Create class Car
+    milage
+    type
+    model
+
+myCar = Car
+myCar.milage = 200
+myCar.type = "Toyota"
+myCar.model = "Corolla"
+
+Display "My car is a", myCar.type,
+        "with model", myCar.model,
+        "and a milage of", myCar.milage
+
+# selection statement
+IF myCar.milage > 200:
+    Display "the car is economical"
+ELSE:
+    Display "the car is not economical"
+
+# iteration statement
+Display "repeating car type 5 times"
+
+FOR a = 1 TO 5
+    Display myCar.type
+
+END
